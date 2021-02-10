@@ -35,6 +35,7 @@ def show_category(request, category_name_slug):
     return render(request, 'rango/category.html', context=context_dict)
 
 def about(request):
+    context_dict ={}
     return render(request, 'rango/about.html', context=context_dict)
 
 def add_category(request):
